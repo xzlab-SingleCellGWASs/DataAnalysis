@@ -9,7 +9,7 @@ The order of sqc data and fam data are the same. The sample size of the two data
 The output of STEP 1: `QC sample: 488377`
 
 ### STEP2: Selecting samples from sqc data
-Select the samples from combined sqc data.
+Select the samples from combined sqc data.<br>
 The output of STEP 2:<br>
 `Genotyping success: 487409 `<br/>
 `White British ancestry subset: 408972` <br>
