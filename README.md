@@ -16,10 +16,12 @@ The output of STEP 2:<br>
 `Excess relatives: 188` <br>
 `Sex chromosome aneuploidy: 652` <br>
 `Used in PCA calculation: 407219` <br>
-`Redacted: 14`
+`Redacted: 14`<br>
 `Samples Remaining: 377198`
 
-### STEP2: Selecting and sorting samples of pehnotype data
+### STEP3: Selecting and sorting samples of pehnotype data
 
 ### Reference
 The introduction to datasets of UKBiobank: http://www.ukbiobank.ac.uk/wp-content/uploads/2017/07/ukb_genetic_file_description.txt
+
+## Linear regression for each phenotypes
