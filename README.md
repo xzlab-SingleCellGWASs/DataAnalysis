@@ -2,7 +2,7 @@
 This repository is for analyzing the [UKBiobank](http://www.ukbiobank.ac.uk/) data.
 
 ## Preparing datasets
-In this step, we select the samples and sort the order of phenotype data.
+In this step, we select the samples and sort the phenotype data.
 
 ### STEP1: Combining the sqc data and fam data
 The order of sqc data and fam data are the same. The sample size of the two data is 488377. <br>
