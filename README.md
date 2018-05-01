@@ -1,7 +1,7 @@
 # DataAnalysis
 This repository is for analyzing the [UKBiobank](http://www.ukbiobank.ac.uk/) data.
 
-## Preparing datasets
+## Section1: Preparing datasets
 In this section, we select the samples and sort the phenotype data.
 
 ### STEP1: Combining the sqc data and fam data
@@ -26,7 +26,7 @@ Sort phenotype data as the order of sqc data because order of the genotype data 
 The introduction to datasets of UKBiobank: http://www.ukbiobank.ac.uk/wp-content/uploads/2017/07/ukb_genetic_file_description.txt
 
 
-## Analyzing UKBiobank data by cross validation
+## Section2: Analyzing UKBiobank data by cross validation
 In this section, we get the summary data.
 
 ### STEP1: Setting parameters
