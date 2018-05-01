@@ -2,7 +2,7 @@
 This repository is for analyzing the [UKBiobank](http://www.ukbiobank.ac.uk/) data.
 
 ## Preparing datasets
-In this step, we select the samples and sort the phenotype data.
+In this section, we select the samples and sort the phenotype data.
 
 ### STEP1: Combining the sqc data and fam data
 The order of sqc data and fam data are the same. The sample size of the two data is 488377. <br>
@@ -25,3 +25,21 @@ Sort phenotype data as the order of sqc data because order of the genotype data 
 ### Reference
 The introduction to datasets of UKBiobank: http://www.ukbiobank.ac.uk/wp-content/uploads/2017/07/ukb_genetic_file_description.txt
 
+
+## Analysis UKBiobank data by cross validation
+In this section, we get the summary data.
+
+### STEP1: Setting parameters
+`minMAF = 1e-3 `<br/>
+`minINFO = 0.8`<br/>
+`minHW = 1e-10`<br/>
+`callingRate = 0.95`<br/>
+`prop = 0.8;`<br/>
+
+### STEP2: Loading and processing data
+Load the data from the first section, including phenotype, sqc and sqcNA.
+Get the index of each samples. The selection standards are sqc, phenotype and cross validation.
+
+### STEP3: Getting summary data
+Load the data from the first section, including phenotype, sqc and sqcNA.
+Get the index of each samples. The selection standards are sqc, phenotype and cross validation.
