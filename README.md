@@ -26,7 +26,7 @@ Sort phenotype data as the order of sqc data because order of the genotype data 
 The introduction to datasets of UKBiobank: http://www.ukbiobank.ac.uk/wp-content/uploads/2017/07/ukb_genetic_file_description.txt
 
 
-## Analysis UKBiobank data by cross validation
+## Analyzing UKBiobank data by cross validation
 In this section, we get the summary data.
 
 ### STEP1: Setting parameters
