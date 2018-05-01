@@ -41,5 +41,6 @@ Load the data from the first section, including phenotype, sqc and sqcNA.
 Get the index of each samples. The selection standards are sqc, phenotype and cross validation.
 
 ### STEP3: Getting summary data
-Load the data from the first section, including phenotype, sqc and sqcNA.
-Get the index of each samples. The selection standards are sqc, phenotype and cross validation.
+Output the summary data of all selected SNPs.
+Get the infomation of SNPs < 1e-3 and < 1e-8 for the further analysis.
+
