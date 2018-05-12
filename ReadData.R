@@ -3,7 +3,7 @@ library(SingleCellExperiment)
 library(dplyr)
 
 ###Read the RDS data
-data=readRDS("/Users/yingma/Desktop/Dr. XiangZhou/singlecell_dataset/darmanis.rds")
+data=readRDS("~/darmanis.rds")
 
 ### just type data, you will see there are information in the assay like : assays(3): counts normcounts logcounts
 data
