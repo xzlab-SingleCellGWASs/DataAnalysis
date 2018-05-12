@@ -1,4 +1,4 @@
-###This code is for transfering rds data to the normal counts data
+###This code is for transfering rds data to other format
 library(SingleCellExperiment)
 library(dplyr)
 
