@@ -41,6 +41,20 @@ Load the data from the first section, including phenotype, sqc and sqcNA.
 Get the index of each samples. The selection standards are sqc, phenotype and cross validation.
 
 ### STEP 3: Getting summary data
-Output the summary data of all selected SNPs.
-Get the infomation of SNPs < 1e-3 and < 1e-8 for the further analysis.
+Using the function `summ`, we can easily get the summary data of all selected SNPs from the bgen format. <br>
+```
+summ -maf mad_num -info info_num -hwe hwe_num -call call_num \
+     -thread thread_num -prop prop_num -seed sedd_num \
+     -pheno pheno_file -sqc sqc_file -bgen bgen_file \
+     -outpath out_path -outfile out_file -chr chr_num -cv 0
+```
+- -maf, -info, -hwe and -call: the minimum of MAF, information, hwe and calling rate.
+- -thread: the thread to parallel.
+- -prop and -seed: the proportion of training data and seed.
+- -pheno: phenotype data (csv format).
+- -sqc: sqc index data (csv format).
+- -bgen: bgen data.
+- -outpath and -output: outpath and outfile (txt format)
+- -chr: chromosome number.
+- -cv: cv number.
 
