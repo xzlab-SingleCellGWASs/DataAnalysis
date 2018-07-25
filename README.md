@@ -29,18 +29,11 @@ The introduction to datasets of UKBiobank: http://www.ukbiobank.ac.uk/wp-content
 ## Section 2: Analyzing UKBiobank data by cross validation
 In this section, we get the summary data.
 
-### STEP 1: Setting parameters
-`minMAF = 1e-3 `<br/>
-`minINFO = 0.8`<br/>
-`minHW = 1e-10`<br/>
-`callingRate = 0.95`<br/>
-`prop = 0.8;`<br/>
-
-### STEP 2: Loading and processing data
+### STEP 1: Loading and processing data
 Load the data from the first section, including phenotype, sqc and sqcNA.
 Get the index of each samples. The selection standards are sqc, phenotype and cross validation.
 
-### STEP 3: Getting summary data
+### STEP 2: Getting summary data
 Using the function `summ`, we can easily get the summary data of all selected SNPs from the bgen format. <br>
 ```
 summ -maf mad_num -info info_num -hwe hwe_num -call call_num \
@@ -48,7 +41,7 @@ summ -maf mad_num -info info_num -hwe hwe_num -call call_num \
      -pheno pheno_file -sqc sqc_file -bgen bgen_file \
      -outpath out_path -outfile out_file -chr chr_num -cv 0
 ```
-- -maf, -info, -hwe and -call: the minimum of MAF, information, hwe and calling rate.
+- -maf, -info, -hwe and -call: the minimum of MAF (1e-3), information (0.8), hwe (1e-7) and calling rate (0.8).
 - -thread: the thread to parallel.
 - -prop and -seed: the proportion of training data and seed.
 - -pheno: phenotype data (csv format).
